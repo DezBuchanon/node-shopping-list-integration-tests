@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy: sheltered-forest-50084
+  provider: heroku
+  api_key:
+    secure: AP4foGbFB4W9TJitMEiLvmX9Cc17bbhgspiIXZ29h/uXZEI7Xm+2KbY/Xbwv4epDAxnwveuAlRZLg1fw8hgFG3Ps750rS8z/Pqm2kp4qp7ljWHHozUV8iAawQmzgNNLbwkEbJdKpyFU8xCQQf1vMNZIaqOzuuHzmAdRt/UHloN39XYOw8fvZ82CnuuszbV+t7r78O2yc464MpN7+lIxqIj0YRb469BjK1fomJuIGyRexzSD/ipcaAnk3/EiXf2Pun+HwzQscPUk1r0E45Nn/uNyVU0275ZtKqR07stBKLb6ZzGKSRSW1O58ZOLmyhoqPAzk7H2b/7b6KMKCzR79DheueekbJ7BfQXBdx6jf4EVsf4ugFItqUKuTKX/SYXNyr4Q/AJbra65XzbEiNaQx8g4fTD3mxBx4UGXrrondjGMOsFUqi/yjH9ggFGbHYNqNxuD6GXqkTSTGSA7VK4QM/dGt61rOQq5o9ilA8Yw0lYE30aWlZVQj85hjvFTMSo2ycf1HBiKpLUU+coHh3D/7+t2UdYpXq4iSHcZPNY6vAvcKURbBmKOezRv61CCQBvCGam8DBQaar7sayfJs2CP7NshPOkScdohCnJtyzhaM5AsFgMzaNlTEDlvs0xlhpGSYqtQohYW/SojdMct+HcfwM7Nej1uKs3HUPkAAEXXFy0aA=
+  app: git diff
+  on:
+    repo: DezBuchanon/node-shopping-list-integration-tests
